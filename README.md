@@ -134,3 +134,23 @@
 
 </body>
 </html>
+.hero {
+  background: 
+    linear-gradient(to bottom right, rgba(17, 24, 39, 0.7), rgba(17, 24, 39, 0.7)),
+    url('https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=1500&q=80');
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 2rem 5rem;
+  text-align: center;
+  color: #fff;
+}
+.hero h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #f3f4f6;
+}
+.hero p {
+  font-size: 1.2rem;
+  color: #d1d5db;
+}
